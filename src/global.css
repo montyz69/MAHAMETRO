@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply leading-[normal] m-0;
+  width: 100vw; /* Set body width to 100% of viewport width */
+  height: 100vh; /* Set body height to 100% of viewport height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+  height: 100%; /* Occupy full height of viewport */
+  overflow-y: auto; /* Allow vertical scrolling within the container */
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
